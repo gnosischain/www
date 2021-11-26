@@ -1,0 +1,248 @@
+/* Base */
+@font-face {
+    font-family: "Moderat-Regular";
+    font-style: normal;
+    src: local("Moderat-Regular"),
+      url(../fonts/Moderat-Regular-Web/Moderat-Regular.eot) format("embedded-opentype"),
+      url(../fonts/Moderat-Regular-Web/Moderat-Regular.woff) format("woff"),
+      url(../fonts/Moderat-Regular-Web/Moderat-Regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Moderat-Medium";
+    font-style: normal;
+    src: local("Moderat-Medium"),
+        url(../fonts/Moderat-Medium-Web/Moderat-Medium.eot) format("embedded-opentype"),
+        url(../fonts/Moderat-Medium-Web/Moderat-Medium.woff) format("woff"),
+        url(../fonts/Moderat-Medium-Web/Moderat-Medium.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Moderat-Bold";
+    font-style: normal;
+    src: local("Moderat-Bold"),
+        url(../fonts/Moderat-Bold-Web/Moderat-Bold.eot) format("embedded-opentype"),
+        url(../fonts/Moderat-Bold-Web/Moderat-Bold.woff) format("woff"),
+        url(../fonts/Moderat-Bold-Web/Moderat-Bold.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Moderat-Mono-Regular";
+    font-style: normal;
+    src: local("Moderat-Mono-Regular"),
+        url(../fonts/Moderat-Mono-Regular-Web/Moderat-Mono-Regular.eot) format("embedded-opentype"),
+        url(../fonts/Moderat-Mono-Regular-Web/Moderat-Mono-Regular.woff) format("woff"),
+        url(../fonts/Moderat-Mono-Regular-Web/Moderat-Mono-Regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Moderat-Mono-Bold";
+    font-style: bold;
+    src: local("Moderat-Mono-Bold"),
+        url(../fonts/Moderat-Mono-Bold-Web/Moderat-Mono-Bold.eot) format("embedded-opentype"),
+        url(../fonts/Moderat-Mono-Bold-Web/Moderat-Mono-Bold.woff) format("woff"),
+        url(../fonts/Moderat-Mono-Bold-Web/Moderat-Mono-Bold.woff2) format("woff2");
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+}
+
+*:focus {
+    box-shadow: none !important;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin-top: 0;
+}
+
+/* NavMenu */
+
+.nav-menu-button {
+    padding: 0;
+}
+  
+.nav-menu ol {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+  
+.nav-menu ol li {
+    align-items: center;
+    display: flex;
+    padding: 0 0 0 20px;
+}
+  
+.nav-menu a {
+    color: #000;
+    font-family: 'Moderat-Bold', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+  
+.nav-menu a:hover {
+    color: #1e1e1e;
+}
+
+/* nav menu swap */
+.nav-menu-item-swap {
+    background-color: #0AE33A;
+    color: #000;
+    font-family: 'Moderat-Bold', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 8px 16px !important;
+    border-radius: 16px;
+}
+
+[aria-controls="nav-menu-list"] {
+    display: none;
+}
+
+.nav-scroll-top {
+    display: none;
+}
+
+/* Home */
+#home {
+    margin-top: 64px;
+}
+
+/* Projects */
+#projects, #testimonials, #tokens {
+    background-color: #EEE;
+}
+
+/* Projects Carousel */
+.carousel-wrapper {
+    margin-top: 48px;
+}
+
+.carousel-wrapper {
+    mask-image: linear-gradient(transparent,
+        black 20%,
+        black 80%,
+        transparent 100%);
+    -webkit-mask-image: linear-gradient( to right,transparent,
+        black 20%,
+        black 80%,
+        transparent 100%);
+}
+
+.project-slide {
+    background-color: #fff;
+    border-radius: 8px;
+    height: 132px;
+    padding: 16px;
+    width: 132px;
+}
+
+.slide {
+    margin: 8px !important;
+    min-width: 132px !important;
+}
+
+.slide > img {
+    width: 100px !important;
+}
+
+/* Swiper - Projects Swiper */
+.swiper-slide {
+    background-color: #fff;
+    border-radius: 8px;
+    height: 132px;
+    margin: 8px !important;
+    max-width: 132px !important;
+    padding: 16px;
+    width: 132px; 
+}
+
+/*  TODO: Test and specify real width 
+    TODO: Convert to Chakra's responsive grid system */
+@media (min-width: 320px) and (max-width: 864px) {
+  /* Mobile Layout */
+
+  /* Mobile NavMenu */
+    .nav-menu-button {
+        background: white;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        right: 0px;
+        text-rendering: optimizeLegibility;
+    }
+
+    .nav-menu-button .nav-icon {
+        font-size: 20px;
+        width: 18px;
+    }
+
+    [aria-controls="nav-menu-list"] {
+        display: block;
+    }
+    
+    .nav-menu ol {
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        margin: 0;
+        max-height: 0;
+        overflow: hidden;
+        padding: 0;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .nav-menu ol > li {
+        padding: 16px 24px;
+    }
+
+    .nav-menu ol > li:not(:last-child) {
+        border-bottom: 1px solid #2A3439;
+    }
+
+    .nav-menu a {
+        display: block;
+        padding: 0;
+        text-align: left;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .nav-menu a:link,
+    .nav-menu a:visited,
+    .nav-menu a:active {
+        color: #2A3439;
+    }
+
+    [aria-expanded="true"] ~ .nav-menu ol {
+        border-bottom: 1px solid #2A3439;
+        border-top: 1px solid #2A3439;
+        max-height: 500px;
+    }
+
+    [aria-expanded="false"] .nav-close {
+        display: none;
+    }
+
+    [aria-expanded="true"] .nav-close {
+        display: inline-block;
+    }
+
+    [aria-expanded="true"] .nav-open {
+        display: none;
+    }
+}

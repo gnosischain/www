@@ -1,0 +1,16 @@
+<svg width="46" height="47" viewBox="0 0 46 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="44.4667" y="29.6333" width="42.9333" height="12.2667" rx="6.13334" transform="rotate(-180 44.4667 29.6333)" fill="url(#paint0_linear_572)"/>
+<rect x="29.1333" y="2.03345" width="42.9333" height="12.2667" rx="6.13333" transform="rotate(90 29.1333 2.03345)" fill="url(#paint1_linear_572)"/>
+<rect x="29.1333" y="14.2998" width="12.2667" height="12.2667" rx="6.13333" transform="rotate(-180 29.1333 14.2998)" fill="#0AE33A"/>
+<rect x="44.4667" y="29.6333" width="12.2667" height="12.2667" rx="6.13333" transform="rotate(-180 44.4667 29.6333)" fill="#0AE33A"/>
+<defs>
+<linearGradient id="paint0_linear_572" x1="87.4" y1="35.7666" x2="44.4667" y2="35.7666" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B3D3FA"/>
+<stop offset="1" stop-color="#B3D3FA" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_572" x1="72.0666" y1="8.16677" x2="29.1333" y2="8.16678" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B3D3FA"/>
+<stop offset="1" stop-color="#B3D3FA" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
