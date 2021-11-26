@@ -34,10 +34,7 @@ const ProjectsSwiper = () => {
       autoplay
       direction="horizontal"
       loop
-      mousewheel={[	    
-        releaseOnEdges="true",
-        sensitivity="0.9"
-      ]}
+      mousewheel={true}
       slidesPerView="auto"
     >
       <SwiperSlide>
