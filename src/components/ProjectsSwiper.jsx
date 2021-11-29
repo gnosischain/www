@@ -31,7 +31,7 @@ const ProjectsSwiper = () => {
   return (
     <Swiper
       modules={[Autoplay, A11y, Mousewheel]}
-      autoplay
+      autoplay={{ "disableOnInteraction": false }}
       direction="horizontal"
       loop
       mousewheel={true}
