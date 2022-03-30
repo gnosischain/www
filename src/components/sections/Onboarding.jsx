@@ -56,8 +56,8 @@ const Onboarding = () => {
                     <Text as="h3" textStyle="h3" color="green.500">Bridges</Text> 
                     <List layerStyle="list">
                         <ListItem textStyle="listGreen500"><ArrowForwardIcon w={ 3 } h={ 3 } /> <a href="https://bridge.xdaichain.com/" target="_blank" rel="noreferrer">xDai Bridge</a></ListItem>
-                        <ListItem textStyle="listGreen500"><ArrowForwardIcon w={ 3 } h={ 3 } /> <a href="https://omni.xdaichain.com/bridge" target="_blank" rel="noreferrer">OmniBridge</a></ListItem>
-                        <ListItem textStyle="listGreen500"><ArrowForwardIcon w={ 3 } h={ 3 } /> <a href="https://omni.xdaichain.com/bridge" target="_blank" rel="noreferrer">BSC Bridge</a></ListItem>
+                        <ListItem textStyle="listGreen500"><ArrowForwardIcon w={ 3 } h={ 3 } /> <a href="https://omni.gnosischain.com/" target="_blank" rel="noreferrer">OmniBridge</a></ListItem>
+                        <ListItem textStyle="listGreen500"><ArrowForwardIcon w={ 3 } h={ 3 } /> <a href="https://omni.gnosischain.com/" target="_blank" rel="noreferrer">BSC Bridge</a></ListItem>
                         <ListItem textStyle="listGreen500"><ArrowForwardIcon w={ 3 } h={ 3 } /> <a href="https://www.xdaichain.com/about-xdai/project-spotlights#bridges-and-interoperability" target="_blank" rel="noreferrer">3rd Party Bridges</a></ListItem>
                     </List>
                 </Box>  
