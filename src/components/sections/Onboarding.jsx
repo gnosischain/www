@@ -68,6 +68,7 @@ const Onboarding = () => {
                         <ListItem textStyle="listGreen900"><ArrowForwardIcon w={ 3 } h={ 3 } /> <a href="https://blockscout.com/xdai/mainnet/" target="_blank" rel="noreferrer">BlockScout Explorer</a></ListItem>
                         <ListItem textStyle="listGreen900"><ArrowForwardIcon w={ 3 } h={ 3 } /> <a href="https://dune.xyz/maxaleks/xDai-Usage" target="_blank" rel="noreferrer">Usage Dune Analytics</a></ListItem>
                         <ListItem textStyle="listGreen900"><ArrowForwardIcon w={ 3 } h={ 3 } /> <a href="https://www.xdaichain.com/for-developers/developer-resources/aox-arbitrum-on-xdai" target="_blank" rel="noreferrer">Arbitrum on xDai</a></ListItem>
+                        <ListItem textStyle="listGreen900"><ArrowForwardIcon w={ 3 } h={ 3 } /> <a href="https://www.xdaichain.com/for-developers/optimism-optimistic-rollups-on-gc" target="_blank" rel="noreferrer">Optimism on xDai</a></ListItem>
                     </List>
                 </Box>                 
             </Flex>
